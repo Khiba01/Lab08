@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.51.0" timestamp="2022-11-15T16:06:44.878">
+<file name="C:\Users\karim.elkholy\Desktop\lab8\lab08\81-bad-gui-io\src\main\java\it\unibo\mvc\BadIOGUI.java">
+<violation beginline="81" endline="81" begincolumn="21" endcolumn="78" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="BadIOGUI" method="actionPerformed" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'strList' could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" package="it.unibo.mvc" class="BadIOGUI" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="84" endline="84" begincolumn="21" endcolumn="39" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="it.unibo.mvc" class="BadIOGUI" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+</pmd>
